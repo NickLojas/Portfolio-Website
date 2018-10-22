@@ -120,6 +120,20 @@ main {
     padding-top: 100px;
 }
 
+p {
+    font-family: Noto Serif;
+    font-size: 16px;
+    font-weight:300;
+    color: #111;
+    line-height: 20px;
+}
+
+
+
+/*HEADER*/
+
+
+
 header {
     position: fixed;
     top: 0;
@@ -209,7 +223,11 @@ header .header-myprojects {
     }
 }
 
+
+
 /*INDEX PAGE*/
+
+
 
 .index-banner {
     width: 100%;
@@ -337,7 +355,93 @@ header .header-myprojects {
     }
 }
 
+
+
+/*CASES*/
+
+
+
+#projects-title {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight:500;
+    color: #111;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.wrapper p {
+    margin: 10px 0 0 20px;
+}
+
+.projects-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.projects-links div h3 {
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight:600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .projects-links div {
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: #f2f2f2;
+        float: left;
+    }
+
+    .projects-links {
+        overflow: hidden;
+    }
+
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .index-boxlink-square:hover {
+        background-color: #2f2f2f;
+    }
+
+    .index-boxlink-square:hover h3{
+        color: #f2f2f2;
+    }
+
+    .index-boxlink-longrectangle {
+        width: calc(100% - 20px) !important;
+        height: 100px !important;
+    }
+
+    .index-boxlink-longrectangle h3{
+        line-height: 100px !important;
+    }
+
+    .index-boxlink-longrectangle:hover {
+        background-color: #2f2f2f;
+    }
+
+    .index-boxlink-longrectangle:hover h3{
+        color: #f2f2f2;
+    }
+
+    .projects-links div h3 {
+        line-height: 230px;
+    }
+}
+
+
+
 /*FOOTER*/
+
+
 
 footer {
     width: calc(100% - 100px);
