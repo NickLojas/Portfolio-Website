@@ -390,6 +390,9 @@ header .header-myprojects {
     text-transform: uppercase;
     line-height: 100px;
 }
+.projects-boxlink-longrectangle p {
+    display: none;
+}
 
 @media only screen and (min-width: 1000px) {
     .projects-links div {
@@ -402,9 +405,61 @@ header .header-myprojects {
     .projects-links {
         overflow: hidden;
     }
-    
+
     .projects-links div h3 {
         line-height: 230px;
+    }
+
+    .projects-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .projects-boxlink-square:hover {
+        background-color: #2f2f2f;
+    }
+
+    .projects-boxlink-square:hover h3{
+        color: #f2f2f2;
+    }
+
+    .projects-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+
+    .projects-boxlink-rectangle:hover {
+        background-color: #2f2f2f;
+    }
+
+    .projects-boxlink-rectangle:hover h3{
+        color: #f2f2f2;
+    }
+
+    .projects-boxlink-longrectangle {
+        width: calc(100% - 20px) !important;
+        height: 150px !important;
+    }
+
+    .projects-boxlink-longrectangle h3{
+        line-height: 50px !important;
+        padding-top: 20px;
+    }
+
+    .projects-boxlink-longrectangle:hover {
+        background-color: #2f2f2f;
+    }
+
+    .projects-boxlink-longrectangle:hover h3{
+        color: #f2f2f2;
+    }
+
+    .projects-boxlink-longrectangle p {
+        display: block;
+        color: #111;
+        text-align: center;
+    }
+
+    .projects-boxlink-longrectangle:hover p{
+        color: #f2f2f2;
     }
 }
 
