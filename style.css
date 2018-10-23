@@ -357,7 +357,7 @@ header .header-myprojects {
 
 
 
-/*CASES*/
+/*MY PROJECTS PAGE*/
 
 
 
@@ -461,6 +461,21 @@ header .header-myprojects {
     .projects-boxlink-longrectangle:hover p{
         color: #f2f2f2;
     }
+}
+
+
+
+/*PROJECT 1 PAGE*/
+
+
+
+.project1 .wrapper h2{
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight:500;
+    color: #111;
+    text-align: left;
+    margin-left: 20px;
 }
 
 
