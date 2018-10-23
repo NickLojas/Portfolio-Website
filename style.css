@@ -512,6 +512,34 @@ header .header-myprojects {
 }
 
 
+/*CONTACT PAGE*/
+
+
+.contact-form {
+    margin: 10px 20px;
+}
+
+form, input {
+    width: 300px;
+}
+
+select {
+    margin: 5px 0;
+}
+
+textarea {
+    width: 298px;
+    height: 80px;
+    resize: vertical;
+    max-height: 300px;
+    min-height: 15px;
+}
+
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 5px rgba(0,255,0,0.5);
+    border: 2px solid rgb(0,255,0);
+}
+
 
 
 /*FOOTER*/
