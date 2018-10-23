@@ -390,6 +390,7 @@ header .header-myprojects {
     text-transform: uppercase;
     line-height: 100px;
 }
+
 .projects-boxlink-longrectangle p {
     display: none;
 }
@@ -477,6 +478,39 @@ header .header-myprojects {
     text-align: left;
     margin-left: 20px;
 }
+
+.project1 .projects-boxlink-longrectangle {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.project1 div h3 {
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight:600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .projects-boxlink-longrectangle:hover {
+        background-color: #2f2f2f;
+    }
+
+    .projects-boxlink-longrectangle:hover h3{
+        color: #f2f2f2;
+    }
+
+    .projects-boxlink-longrectangle:hover p{
+        color: #f2f2f2;
+    }
+}
+
 
 
 
