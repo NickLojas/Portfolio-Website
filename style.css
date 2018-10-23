@@ -125,7 +125,16 @@ p {
     font-size: 16px;
     font-weight:300;
     color: #111;
-    line-height: 20px;
+    line-height: 25px;
+}
+
+h2 {
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight:500;
+    color: #111;
+    text-align: left;
+    margin-left: 20px;
 }
 
 
@@ -470,13 +479,13 @@ header .header-myprojects {
 
 
 
-.project1 .wrapper h2{
+.wrapper h2{
     font-family: Noto Serif;
     font-size: 24px;
     font-weight:500;
     color: #111;
     text-align: left;
-    margin-left: 20px;
+    margin: 20px 20px 10px;
 }
 
 .project1 .projects-boxlink-longrectangle {
@@ -515,8 +524,38 @@ header .header-myprojects {
 /*CONTACT PAGE*/
 
 
-.contact-form {
+.contact-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.contact-banner h2 {
+    font-family: Catamaran;
+    font-size: 75px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+}
+
+.contact-form form {
     margin: 10px 20px;
+}
+
+.contact-email h3{
+    font-family: Noto Serif;
+    font-size: 24px;
+    font-weight:500;
+    color: #111;
+    text-align: center;
+    margin:20px 10px;
 }
 
 form, input {
@@ -536,8 +575,14 @@ textarea {
 }
 
 input:focus, textarea:focus, select:focus {
-    box-shadow: 0 0 5px rgba(0,255,0,0.5);
-    border: 2px solid rgb(0,255,0);
+    box-shadow: 0 0 5px rgba(2,2,2,0.5);
+    border: 2px solid rgb(2,2,2);
+}
+
+@media only screen and (min-width: 1000px) {
+    .contact-banner {
+        height: 450px;
+    }
 }
 
 
