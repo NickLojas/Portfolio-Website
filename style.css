@@ -521,7 +521,9 @@ header .header-myprojects {
 }
 
 
+
 /*CONTACT PAGE*/
+
 
 
 .contact-banner {
@@ -581,6 +583,39 @@ input:focus, textarea:focus, select:focus {
 
 @media only screen and (min-width: 1000px) {
     .contact-banner {
+        height: 450px;
+    }
+}
+
+
+
+/*ABOUT PAGE*/
+
+
+
+.about-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('images/about-me.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.about-banner h2 {
+    font-family: Catamaran;
+    font-size: 75px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 70px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-banner {
         height: 450px;
     }
 }
