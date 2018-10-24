@@ -614,9 +614,22 @@ input:focus, textarea:focus, select:focus {
     line-height: 70px;
 }
 
+.about-general {
+    background-color: #f2f2f2;
+}
+
 .about-general p {
     column-count: 2;
     column-gap: 50px;
+}
+
+.about-general ul {
+    margin-left: 40px;
+}
+
+.about-general ul li p{
+    font-size: 14px;
+    line-height: 5px;
 }
 
 @media only screen and (min-width: 1000px) {
