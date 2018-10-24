@@ -560,6 +560,12 @@ header .header-myprojects {
     margin:20px 10px;
 }
 
+.contact-info {
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    width: calc(100% - 20px);
+}
+
 form, input {
     width: 300px;
 }
@@ -616,6 +622,8 @@ input:focus, textarea:focus, select:focus {
 
 .about-general {
     background-color: #f2f2f2;
+    margin: 0 auto;
+    width: calc(100% - 20px);
 }
 
 .about-general p {
