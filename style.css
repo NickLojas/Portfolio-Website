@@ -631,6 +631,7 @@ input:focus, textarea:focus, select:focus {
 
 .about-general ul {
     margin-left: 40px;
+    padding-bottom: 10px;
 }
 
 .about-general ul li p{
