@@ -477,7 +477,7 @@ header .header-myprojects {
 }
 
 .project1 .projects-boxlink-longrectangle {
-    margin: 16px 16px 0;
+    margin: 16px 10px 0;
     width: calc(100% - 32px);
     height: 100px;
     background-color: #f2f2f2;
@@ -652,7 +652,7 @@ footer ul {
     width: fit-content;
     float: left;
     padding-left: 20px;
-    margin-top:10px;
+    margin: 20px 0 0;
 }
 
 footer ul li {
