@@ -493,6 +493,10 @@ header .header-myprojects {
     line-height: 100px;
 }
 
+.project .link {
+    color: rgb(200, 0, 0);
+}
+
 .clicklink {
     font-family: Catamaran;
     font-size: 16px;
