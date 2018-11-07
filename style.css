@@ -554,6 +554,10 @@ header .header-myprojects {
     margin: 10px 20px;
 }
 
+.contact-button {
+    margin-bottom: 10px;
+}
+
 .contact-email h3{
     font-family: Noto Serif;
     font-size: 24px;
