@@ -504,6 +504,10 @@ header .header-myprojects {
     margin-left: 20px;
 }
 
+.clicklink:hover {
+    color: rgb(200, 0, 0);
+}
+
 @media only screen and (min-width: 1000px) {
     
     .projects-boxlink-longrectangle:hover {
