@@ -37,8 +37,8 @@
 				</section>
 				<section class="contact-form">
 					<p>Feel free to ask me any questions or leave a comment; you can do so below. Also, please leave a rating for this site as I want to know what you think about it.</p>
-					<form method="post">
-						<input type="text" name="Name" placeholder="Name (optional)">
+					<form action="contactform.php" method="post">
+						<input type="text" name="name" placeholder="Name (optional)">
 						<input type="text" name="email" placeholder="Enter your e-mail (optional)">
 						<textarea name="message" placeholder="Comments/Questions here"></textarea>
 						<select name="rating">
@@ -49,7 +49,7 @@
 							<option value="2">2 Stars</option>
 							<option value="1">1 Stars</option>
 						</select>
-						<input class="contact-button" type="submit" name="submit" onClick="alert('Sorry, this form doesn\'t have functionality yet.');">
+						<input class="contact-button" type="submit" name="submit" value="submit">
 					</form>
 				</section>
 			</div>
