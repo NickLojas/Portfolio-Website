@@ -37,11 +37,11 @@
 				</section>
 				<section class="contact-form">
 					<p>Feel free to ask me any questions or leave a comment; you can do so below. Also, please leave a rating for this site as I want to know what you think about it.</p>
-					<form action="contactform.php" method="post">
-						<input type="text" name="name" placeholder="Name (optional)">
-						<input type="text" name="email" placeholder="Enter your e-mail (optional)">
-						<textarea name="message" placeholder="Comments/Questions here"></textarea>
-						<select name="rating">
+					<form action="contactform.php" method="post" onSubmit="return validate()">
+						<input type="text" id="name" name="name" placeholder="Name (optional)">
+						<input type="text" id="email" name="email" placeholder="Enter your e-mail (optional)">
+						<textarea name="message" id="message" placeholder="Comments/Questions here"></textarea>
+						<select name="rating" id="rating">
 							<option value="none">None</option>
 							<option value="5">5 Stars</option>
 							<option value="4">4 Stars</option>
@@ -73,5 +73,6 @@
 			</div>
 		</footer>
 	</div>
+	<script src="validation.js"></script>
 </body>
 </html>
