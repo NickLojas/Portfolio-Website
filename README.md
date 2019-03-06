@@ -7,11 +7,11 @@ This was a project made after learning HTML/CSS to test my knowledge and learn n
 - Javascript
 - Git
 
-## Features
+## Notable Features
 - Projects page with several of my latest projects including some pictures and links to github links they reside in
 - Footer with navigation links, some of which take user to my social media accounts
 - Fixed menu bar with several navigation links
-- Contact form that sends me an email with the data from the submitted fields
+- Contact page with contact form that sends me an email with the data from the submitted fields
 
 
 ## What I learned
