@@ -1,5 +1,5 @@
 # Portfolio-Website
-This was a project made after learning HTML/CSS to test my knowledge and learn new things about simple front end web development as I went along.
+This is a website made as a project after learning HTML/CSS to test my knowledge and learn new things about simple front end web development as I went along.
 
 ## Skills used
 - HTML5/CSS3
